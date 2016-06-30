@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.json.observer.application.base.viewImpl.HomeView.VerticalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_list_bg"
+        android:fadingEdge="none"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_list_bg"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </com.json.observer.application.base.viewImpl.HomeView.VerticalScrollView>
+
+    <LinearLayout
+        android:id="@+id/pao"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone" >
+    </LinearLayout>
+</RelativeLayout>
